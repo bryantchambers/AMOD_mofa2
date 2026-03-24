@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_type" for="node" attr.name="type" attr.type="string"/>
+  <key id="v_weight" for="node" attr.name="weight" attr.type="double"/>
+  <key id="e_module" for="edge" attr.name="module" attr.type="string"/>
+  <graph id="G" edgedefault="undirected">
+    <node id="n0">
+      <data key="v_name">feature_8_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">0.0920189470052719</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">feature_11_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">0.11624613404274</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">feature_12_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">-0.0944641903042793</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">feature_21_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">0.161983236670494</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">feature_25_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">0.127241834998131</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">feature_26_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">-0.167346149682999</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">feature_27_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">-0.0997642651200294</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">feature_56_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">-0.0871971100568771</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">feature_69_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">-0.0942485108971596</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">feature_70_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">-0.0998359695076942</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">feature_77_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">0.134501188993454</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">feature_89_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">-0.0988545641303062</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">feature_94_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">-0.0995029956102371</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">feature_95_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">0.0943183600902557</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">feature_99_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">-0.15642885863781</data>
+    </node>
+    <edge source="n0" target="n1">
+      <data key="e_module">Factor3</data>
+    </edge>
+    <edge source="n0" target="n2">
+      <data key="e_module">Factor3</data>
+    </edge>
+    <edge source="n0" target="n3">
+      <data key="e_module">Factor3</data>
+    </edge>
+    <edge source="n0" target="n4">
+      <data key="e_module">Factor3</data>
+    </edge>
+    <edge source="n0" target="n5">
+      <data key="e_module">Factor3</data>
+    </edge>
+    <edge source="n0" target="n6">
+      <data key="e_module">Factor3</data>
+    </edge>
+    <edge source="n0" target="n7">
+      <data key="e_module">Factor3</data>
+    </edge>
+    <edge source="n0" target="n8">
+      <data key="e_module">Factor3</data>
+    </edge>
+    <edge source="n0" target="n9">
+      <data key="e_module">Factor3</data>
+    </edge>
+    <edge source="n0" target="n10">
+      <data key="e_module">Factor3</data>
+    </edge>
+    <edge source="n0" target="n11">
+      <data key="e_module">Factor3</data>
+    </edge>
+    <edge source="n0" target="n12">
+      <data key="e_module">Factor3</data>
+    </edge>
+    <edge source="n0" target="n13">
+      <data key="e_module">Factor3</data>
+    </edge>
+    <edge source="n0" target="n14">
+      <data key="e_module">Factor3</data>
+    </edge>
+    <edge source="n0" target="n1">
+      <data key="e_module">Factor3</data>
+    </edge>
+  </graph>
+</graphml>

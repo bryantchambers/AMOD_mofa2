@@ -2,7 +2,10 @@ library(MOFA2)
 library(dplyr)
 library(tidyr)
 library(igraph)
+library(reticulate)
 
+#reticulate::use_condaenv("amod_mofapy2")
+reticulate::use_python("/maps/projects/caeg/people/gfx654/miniforge3/envs/amod_mofapy2/bin/python", required = TRUE)
 # 2. Data Preparation (Conceptual)
 # ------------------------------------------------------------------------------
 # MOFA expects a list of matrices. 
@@ -14,16 +17,22 @@ library(igraph)
 
 # Assuming you have three pre-processed matrices: mat_taxa, mat_kegg, mat_bgc
 # We bundle them into a list. The names of the list become the "Views".
-data_list <- list(
-  Taxonomy = mat_taxa,
-  Metabolism = mat_kegg,
-  Biosynthesis = mat_bgc
+# data_list <- list(
+#   Taxonomy = mat_taxa,
+#   Metabolism = mat_kegg,
+#   Biosynthesis = mat_bgc
+# )
+
+data_list_analysis <- list(
+  Taxonomy = mat_taxa %>% unname() %>% as.matrix(),
+  Metabolism = mat_kegg %>% unname() %>% as.matrix(),
+  Biosynthesis = mat_bgc %>% unname() %>% as.matrix()
 )
 
 # 3. Initialize and Train the MOFA Model
 # ------------------------------------------------------------------------------
 # Create the MOFA object
-MOFAobject <- create_mofa(data_list)
+MOFAobject <- create_mofa(data_list_analysis)
 
 # Set Data Options: Tell MOFA what kind of statistical distributions to expect.
 # We use "gaussian" for continuous/normalized data.
@@ -32,7 +41,7 @@ data_opts$scale_views <- TRUE # Scales views so one doesn't dominate the model
 
 # Set Model Options: How many factors (hidden drivers) should it look for?
 model_opts <- get_default_model_options(MOFAobject)
-model_opts$num_factors <- 15 # A good starting point. MOFA will drop inactive ones.
+model_opts$num_factors <- 8 # A good starting point. MOFA will drop inactive ones.
 
 # Set Training Options
 train_opts <- get_default_training_options(MOFAobject)
@@ -40,7 +49,7 @@ train_opts$convergence_mode <- "medium"
 
 # Prepare and Train (This connects to Python's mofapy2 under the hood)
 MOFAobject <- prepare_mofa(MOFAobject, data_opts, model_opts, train_opts)
-MOFAobject <- run_mofa(MOFAobject, use_basilisk = TRUE)
+MOFAobject <- run_mofa(MOFAobject, use_basilisk = FALSE)
 
 # 4. Interpret and Select a Factor
 # ------------------------------------------------------------------------------

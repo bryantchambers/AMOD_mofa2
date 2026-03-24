@@ -75,6 +75,3 @@ data_list <- list(
   Metabolism = mat_kegg,
   Biosynthesis = mat_bgc
 )
-
-# Preview the data
-str(data_list)
