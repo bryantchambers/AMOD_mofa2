@@ -10,79 +10,79 @@
   <key id="e_module" for="edge" attr.name="module" attr.type="string"/>
   <graph id="G" edgedefault="undirected">
     <node id="n0">
-      <data key="v_name">feature_3_v1</data>
+      <data key="v_name">feature_6_v1</data>
       <data key="v_type">Taxonomy</data>
-      <data key="v_weight">2.17147660255432</data>
+      <data key="v_weight">-2.10622477531433</data>
     </node>
     <node id="n1">
-      <data key="v_name">feature_4_v1</data>
-      <data key="v_type">Taxonomy</data>
-      <data key="v_weight">-1.83440136909485</data>
-    </node>
-    <node id="n2">
-      <data key="v_name">feature_7_v1</data>
-      <data key="v_type">Taxonomy</data>
-      <data key="v_weight">-1.72144508361816</data>
-    </node>
-    <node id="n3">
       <data key="v_name">feature_8_v1</data>
       <data key="v_type">Taxonomy</data>
-      <data key="v_weight">2.00888538360596</data>
+      <data key="v_weight">-1.6375983953476</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">feature_11_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">1.67014265060425</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">feature_19_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">1.81793200969696</data>
     </node>
     <node id="n4">
-      <data key="v_name">feature_10_v1</data>
-      <data key="v_type">Taxonomy</data>
-      <data key="v_weight">-2.11660575866699</data>
-    </node>
-    <node id="n5">
-      <data key="v_name">feature_12_v1</data>
-      <data key="v_type">Taxonomy</data>
-      <data key="v_weight">-2.00169444084167</data>
-    </node>
-    <node id="n6">
-      <data key="v_name">feature_1_v2</data>
-      <data key="v_type">Metabolism</data>
-      <data key="v_weight">2.17359852790833</data>
-    </node>
-    <node id="n7">
       <data key="v_name">feature_3_v2</data>
       <data key="v_type">Metabolism</data>
-      <data key="v_weight">2.00928401947021</data>
+      <data key="v_weight">2.50833678245544</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">feature_7_v2</data>
+      <data key="v_type">Metabolism</data>
+      <data key="v_weight">1.69701981544495</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">feature_9_v2</data>
+      <data key="v_type">Metabolism</data>
+      <data key="v_weight">1.57298457622528</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">feature_13_v2</data>
+      <data key="v_type">Metabolism</data>
+      <data key="v_weight">1.66886007785797</data>
     </node>
     <node id="n8">
-      <data key="v_name">feature_8_v2</data>
+      <data key="v_name">feature_15_v2</data>
       <data key="v_type">Metabolism</data>
-      <data key="v_weight">2.03397178649902</data>
+      <data key="v_weight">1.89955794811249</data>
     </node>
     <node id="n9">
-      <data key="v_name">feature_11_v2</data>
-      <data key="v_type">Metabolism</data>
-      <data key="v_weight">1.73502337932587</data>
-    </node>
-    <node id="n10">
-      <data key="v_name">feature_12_v2</data>
-      <data key="v_type">Metabolism</data>
-      <data key="v_weight">1.84747231006622</data>
-    </node>
-    <node id="n11">
       <data key="v_name">feature_16_v2</data>
       <data key="v_type">Metabolism</data>
-      <data key="v_weight">2.00124073028564</data>
+      <data key="v_weight">1.73212444782257</data>
     </node>
-    <node id="n12">
+    <node id="n10">
       <data key="v_name">feature_17_v2</data>
       <data key="v_type">Metabolism</data>
-      <data key="v_weight">1.86140990257263</data>
+      <data key="v_weight">1.77278542518616</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">feature_18_v2</data>
+      <data key="v_type">Metabolism</data>
+      <data key="v_weight">1.95086276531219</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">feature_19_v2</data>
+      <data key="v_type">Metabolism</data>
+      <data key="v_weight">1.69569396972656</data>
     </node>
     <node id="n13">
-      <data key="v_name">feature_24_v2</data>
+      <data key="v_name">feature_23_v2</data>
       <data key="v_type">Metabolism</data>
-      <data key="v_weight">1.96573567390442</data>
+      <data key="v_weight">1.5086315870285</data>
     </node>
     <node id="n14">
-      <data key="v_name">feature_28_v2</data>
+      <data key="v_name">feature_29_v2</data>
       <data key="v_type">Metabolism</data>
-      <data key="v_weight">1.71534156799316</data>
+      <data key="v_weight">1.89096832275391</data>
     </node>
     <edge source="n0" target="n1">
       <data key="e_module">Factor1</data>

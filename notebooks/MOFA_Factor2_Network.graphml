@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_type" for="node" attr.name="type" attr.type="string"/>
+  <key id="v_weight" for="node" attr.name="weight" attr.type="double"/>
+  <key id="e_module" for="edge" attr.name="module" attr.type="string"/>
+  <graph id="G" edgedefault="directed">
+    <node id="n0">
+      <data key="v_name">feature_8_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">0.083677850663662</data>
+    </node>
+    <node id="n1">
+      <data key="v_name">feature_11_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">0.111782029271126</data>
+    </node>
+    <node id="n2">
+      <data key="v_name">feature_12_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">-0.0856154412031174</data>
+    </node>
+    <node id="n3">
+      <data key="v_name">feature_14_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">0.0630403757095337</data>
+    </node>
+    <node id="n4">
+      <data key="v_name">feature_21_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">0.153945714235306</data>
+    </node>
+    <node id="n5">
+      <data key="v_name">feature_23_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">-0.0581890270113945</data>
+    </node>
+    <node id="n6">
+      <data key="v_name">feature_25_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">0.117821961641312</data>
+    </node>
+    <node id="n7">
+      <data key="v_name">feature_26_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">-0.15825442969799</data>
+    </node>
+    <node id="n8">
+      <data key="v_name">feature_27_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">-0.0963380932807922</data>
+    </node>
+    <node id="n9">
+      <data key="v_name">feature_30_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">0.0594799295067787</data>
+    </node>
+    <node id="n10">
+      <data key="v_name">feature_32_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">-0.0820914208889008</data>
+    </node>
+    <node id="n11">
+      <data key="v_name">feature_39_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">0.0736714974045753</data>
+    </node>
+    <node id="n12">
+      <data key="v_name">feature_41_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">0.078172393143177</data>
+    </node>
+    <node id="n13">
+      <data key="v_name">feature_47_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">0.0679924264550209</data>
+    </node>
+    <node id="n14">
+      <data key="v_name">feature_49_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">-0.0658634006977081</data>
+    </node>
+    <node id="n15">
+      <data key="v_name">feature_56_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">-0.0816818997263908</data>
+    </node>
+    <node id="n16">
+      <data key="v_name">feature_64_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">0.0635155588388443</data>
+    </node>
+    <node id="n17">
+      <data key="v_name">feature_69_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">-0.086964376270771</data>
+    </node>
+    <node id="n18">
+      <data key="v_name">feature_70_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">-0.0916817709803581</data>
+    </node>
+    <node id="n19">
+      <data key="v_name">feature_71_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">-0.0676896721124649</data>
+    </node>
+    <node id="n20">
+      <data key="v_name">feature_73_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">0.0698142424225807</data>
+    </node>
+    <node id="n21">
+      <data key="v_name">feature_77_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">0.127549678087234</data>
+    </node>
+    <node id="n22">
+      <data key="v_name">feature_85_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">-0.0624412447214127</data>
+    </node>
+    <node id="n23">
+      <data key="v_name">feature_86_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">0.0601538717746735</data>
+    </node>
+    <node id="n24">
+      <data key="v_name">feature_89_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">-0.0971550792455673</data>
+    </node>
+    <node id="n25">
+      <data key="v_name">feature_94_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">-0.096930630505085</data>
+    </node>
+    <node id="n26">
+      <data key="v_name">feature_95_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">0.0883704200387001</data>
+    </node>
+    <node id="n27">
+      <data key="v_name">feature_97_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">0.0691527128219604</data>
+    </node>
+    <node id="n28">
+      <data key="v_name">feature_98_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">0.0695602595806122</data>
+    </node>
+    <node id="n29">
+      <data key="v_name">feature_99_v1</data>
+      <data key="v_type">Taxonomy</data>
+      <data key="v_weight">-0.150613024830818</data>
+    </node>
+    <edge source="n1" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n2" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n3" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n4" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n5" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n6" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n7" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n8" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n9" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n10" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n11" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n12" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n13" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n14" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n15" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n16" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n17" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n18" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n19" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n20" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n21" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n22" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n23" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n24" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n25" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n26" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n27" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n28" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n29" target="n0">
+      <data key="e_module">Factor2</data>
+    </edge>
+    <edge source="n0" target="n1">
+      <data key="e_module">Factor2</data>
+    </edge>
+  </graph>
+</graphml>

@@ -1,4 +1,7 @@
 {
+    "r.plot.view": "httpgd",
+
+    
     // THIS IS THE CRITICAL LINE: Use the absolute path from the 'which R' command
     "r.rpath.linux": "/projects/caeg/people/gfx654/miniforge3/envs/amod_mofa/bin/R",
 
