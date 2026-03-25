@@ -6,12 +6,10 @@
     "r.rpath.linux": "/projects/caeg/people/gfx654/miniforge3/envs/amod_mofa/bin/R",
 
     // Recommended: Also set the terminal path to match, though rpath.linux should cover it.
-    "r.rterm.linux": "/projects/caeg/people/gfx654/miniforge3/envs/amod_mofa/bin/R",
+    "r.rterm.linux": "/maps/projects/caeg/people/gfx654/miniforge3/envs/amod_mofa/bin/radian",
 
     // Ensure you remove any conflicting settings like "r.path" or complex environment setups.
     // If you were using r.rpath.path before, you can try commenting it out to avoid conflicts,
     // but r.rpath.linux is more explicit for your OS.
-
-    "r.plot.view": "httpgd"
 
 }

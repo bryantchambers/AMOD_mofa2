@@ -35,7 +35,6 @@ colnames(mat_taxa_raw) <- sample_names
 
 # CRITICAL STEP: CLR Transformation
 # We add a small pseudocount (1) to handle zeros, then CLR.
-mat_taxa <- t(clr(t(mat_taxa_raw + 1)))
 
 # 3. View 2: Metabolism (mat_kegg)
 # ------------------------------------------------------------
